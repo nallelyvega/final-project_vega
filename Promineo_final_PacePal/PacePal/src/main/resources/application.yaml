@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      username: pacepal
+      password: pacepal
+      URL: jdbc:mysql://localhost:3306/pacepal
+       
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true 
+      #defer-datasource-initialization: true
+      
+   #sql:
+      #init:
+      #mode: always
+     
